@@ -1,0 +1,145 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern, clean font */
+  background-image: url(''); /* Add your background image here */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333; /* Default text color */
+}
+
+.app-container {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Deeper shadow for more depth */
+  max-width: 500px; /* Limiting width for a more compact, cleaner look */
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px; /* Slightly larger font for prominence */
+  color: #4A4A4A;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Consistent shadows */
+  transition: box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Slight hover elevation */
+}
+
+.form-table td {
+  padding: 8px 0;
+}
+
+.form-table input[type="text"],
+.form-table input[type="password"],
+.form-table select,
+.form-table textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000; /* Lighter border for a modern touch */
+  border-radius: 6px;
+  margin-top: 6px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  transition: border-color 0.3s ease; /* Smooth interaction feedback */
+}
+
+.form-table input[type="text"]:focus,
+.form-table input[type="password"]:focus,
+.form-table select:focus,
+.form-table textarea:focus {
+  border-color: #4CAF50; /* Green border on focus for accessibility */
+}
+
+.error {
+  display: inline-block;
+  margin-left: 10px;
+  color: #e74c3c; /* Flat, modern red */
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 12px;
+  background-color: #fbeaea;
+  border-left: 4px solid #e74c3c;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.submit-btn:hover {
+  background-color: #218838; /* Slightly darker on hover */
+}
+
+.data-table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #e0e0e0;
+  padding: 12px;
+  text-align: center;
+}
+
+.data-table th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+  color: #4A4A4A;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800; /* Slightly darker yellow on hover */
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333; /* Slightly darker red on hover */
+}
